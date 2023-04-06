@@ -1,4 +1,4 @@
-def todo_serializer(todo) -> dict:
+def TodoSerializer(todo) -> dict:
     return {
         "id": str(todo["_id"]),
         "name": todo["name"],
@@ -6,5 +6,5 @@ def todo_serializer(todo) -> dict:
         "completed": todo["completed"]
     }
 
-def todos_serializer(todos) -> list:
-    return [todo_serializer(todo) for todo in todos]
+def TodosSerializer(todos) -> list:
+    return [TodoSerializer(todo) for todo in todos]
