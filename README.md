@@ -1,8 +1,8 @@
 # TodoApi
 
 To run: 
-> Git clone the repo
-> `pip install -r requirements.txt'
-> python main.py
+1. Git clone the repo
+2. ```pip install -r requirements.txt'```
+3. python main.py
 
 
